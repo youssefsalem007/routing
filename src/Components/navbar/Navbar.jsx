@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg p-3 main-clr">
   <div className="container">
     <NavLink  className={({ isActive }) =>
-    isActive ? "navbar-brand fs-1 fw-bold text-white " : "navbar-brand fw-bold fs-1 text-white"} to="/">Navbar</NavLink>
+    isActive ? "navbar-brand fs-1 fw-bold text-white " : "navbar-brand fw-bold fs-1 text-white"} to="/">START FRAMEWORK</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
